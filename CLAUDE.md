@@ -4,6 +4,10 @@
 
 <!-- ───────────────────────────────────────────────────────────────────── -->
 <!-- DEVELOPERS ONLY (Brady + Claude working ON this repo). NOT for students. -->
+## Ship rule
+
+Ship rule: branch → PR → mint (gitleaks) → merge. No CI. Main is judged every 10 min; deploys and fleet pulls follow green-main only.
+
 ## /run Pipeline (MANDATORY for repo development — overrides other workflow sections)
 
 **When you are developing/modifying THIS repo, all work flows through `/run`.** Classify → research → discuss → plan → build → review → verify → ship. No "just coding it" without /run routing first. State in `.run/STATE.md`, roadmap in `.run/ROADMAP.md`, phases in `.run/phases/`.
